@@ -15,7 +15,6 @@ namespace Jogo_Da_Velha
     {
         public char vez = 'X';
         char[,] tabela = new char[3, 3];
-        bool terminou = false;
         int x, y;
         int cont = 0;
         int pontosX = 0, pontosO = 0;
